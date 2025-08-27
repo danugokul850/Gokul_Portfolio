@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+}
+.box1{
+    width: 40vw;
+    height: 60vh;
+    margin: 20px 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    text-align: left;
+    position: relative;
+    /* color: white; */
+}
+.box2{
+    width: 30vw;
+    height: 60vh;
+    margin: 40px 40px ;
+    background-color: aquamarine;
+}
+.name{
+    margin-right: 322px;
+    font-weight: 900;
+}
+.about{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+     line-height: 20px;
+}
+ .about, .para, .view {
+  margin: 10;   /* removes default margin */
+}
+.view{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid white;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    position: absolute;
+    left: 2px;
+}
+.view:hover{
+    cursor:pointer;
+}

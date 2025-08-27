@@ -1,0 +1,34 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96.3%;
+  height: 100px;
+  background-color: rgb(38, 37, 37);
+  padding: 0 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.name {
+  color:white;
+  font-size: bold;
+ font-family: 'Times New Roman', Times, serif;
+}
+.but {
+  display: flex;
+  gap: 20px;
+}
+.button{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color:rgb(38, 37, 37) ;
+    border: 2px solid rgb(38, 37, 37) ;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+

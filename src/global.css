@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(211, 188, 188);
+    overflow-x: hidden; 
+}
+.whole{
+    background-color: rgb(235, 230, 230);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    background-color: rgb(88, 208, 208);
+    border-radius: 20px;
+    width: 70vw;
+    height: 85vh;
+    margin-top: 30px;
+
+}
